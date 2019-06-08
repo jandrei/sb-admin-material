@@ -19,6 +19,10 @@ const routes: Routes = [
                 loadChildren: './dashboard/dashboard.module#DashboardModule'
             },
             {
+                path: 'tela2',
+                loadChildren: './mod2/mod2.module#Mod2Module'
+            },
+            {
                 path: 'screen1',
                 loadChildren: './screen1/screen1.module#Screen1Module'
             },
